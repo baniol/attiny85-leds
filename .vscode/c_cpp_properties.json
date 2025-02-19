@@ -1,0 +1,19 @@
+{
+    "configurations": [
+        {
+            "name": "AVR",
+            "includePath": [
+                "${workspaceFolder}/include",
+                "/opt/homebrew/Cellar/avr-gcc@9/9.4.0_1/avr/include",
+                "/opt/homebrew/Cellar/avr-gcc@9/9.4.0_1/lib/avr-gcc/9/gcc/avr/9.4.0/include"
+            ],
+            "defines": [
+                "__AVR_ATtiny85__",
+                "F_CPU=8000000UL"
+            ],
+            "cStandard": "c99",
+            "intelliSenseMode": "gcc-x64"
+        }
+    ],
+    "version": 4
+}

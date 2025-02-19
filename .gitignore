@@ -1,0 +1,37 @@
+# Build directory
+build/
+
+# Editor files
+.DS_Store
+
+# VSCode files to ignore
+.vscode/*
+!.vscode/c_cpp_properties.json
+!.vscode/tasks.json
+!.vscode/extensions.json
+
+# Exclude VSCode workspace state
+.vscode/ipch/
+.vscode/.browse.c_cpp.db*
+.vscode/settings.json
+.vscode/launch.json
+
+# Object files
+*.o
+*.elf
+*.hex
+
+# Dependency files
+*.d
+
+# Debug files
+*.lst
+*.map
+
+# Editor backup files
+*~
+*.swp
+*.swo
+
+# PlatformIO
+.pio
